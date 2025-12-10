@@ -22,4 +22,4 @@ sudo install -m 0755 /tmp/eksctl /usr/local/bin && rm /tmp/eksctl
 sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
-curl -sS https://webinstall.dev/k9s | bash
+sudo curl -sS https://webinstall.dev/k9s | bash
